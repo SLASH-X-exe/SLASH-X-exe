@@ -1,107 +1,130 @@
-# SLΛSH/X
+ <div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=220&section=header&text=SLASH%2FX&fontSize=70&fontColor=4D9FFF&fontAlignY=40&desc=CYBER%20%2F%20CODE%20%2F%20CREATE&descAlignY=65&descSize=14&descColor=8B949E" width="100%" alt="SLASH/X"/>
-</p>
+# ⚡ SLΛSH/X
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=18&duration=3000&pause=1200&color=4D9FFF&center=true&vCenter=true&width=650&lines=Cybersecurity+%7C+Software+Development;Security+Research+%7C+Creative+Editing;Think+Deeply.+Build+Precisely." alt="tagline"/>
-</p>
+### `CYBERSECURITY • DEVELOPMENT • INNOVATION`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-4D9FFF?style=flat-square&labelColor=000000" alt="status"/>
-  <img src="https://img.shields.io/badge/FOCUS-SECURITY-4D9FFF?style=flat-square&labelColor=000000" alt="focus"/>
-  <img src="https://img.shields.io/badge/MODE-BUILDING-4D9FFF?style=flat-square&labelColor=000000" alt="mode"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:001F3F,100:007BFF&height=200&section=header&text=SLASH%2FX&fontSize=65&fontColor=00BFFF&fontAlignY=38&desc=THINK%20DEEPER.%20CODE%20SMARTER.&descAlignY=60&descSize=16" width="100%" />
 
----
+**Code is my weapon. Logic is my edge.**
 
-## / ABOUT
+I explore vulnerabilities, engineer tools, and transform complex problems into intelligent solutions.  
+Focused on cybersecurity, ethical hacking, software engineering, and web technologies.
 
-I explore vulnerabilities, develop software, and turn complex problems into practical solutions.
+[![GitHub](https://img.shields.io/badge/GitHub-SLASH--X--exe-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
+[![Profile Views](https://komarev.com/ghpvc/?username=SLASH-X-exe&style=for-the-badge&color=007BFF&label=PROFILE+VIEWS)](https://github.com/SLASH-X-exe)
 
-My work spans cybersecurity, software engineering, web technologies, and video editing.
-
-**Focus:** Security Research · Development · Visual Creativity
+</div>
 
 ---
 
-## / TECHNOLOGIES
+## `01` // ABOUT ME
+
+```python
+class SlashX:
+    def __init__(self):
+        self.alias = "SLΛSH/X"
+        self.role = "Cyber Dev"
+        self.focus = [
+            "Cybersecurity",
+            "Ethical Hacking",
+            "Software Development",
+            "Web Technologies"
+        ]
+        self.mindset = "Think deeper. Build smarter."
+        self.mission = "Secure systems. Solve problems."
+
+    def motto(self):
+        return "Explore. Engineer. Evolve."
+```
+
+- 🔐 Exploring cybersecurity and ethical hacking.
+- 💻 Building software, websites, and developer tools.
+- 🧠 Solving problems through logic and creative thinking.
+- 🛠️ Learning, experimenting, and improving with every project.
+
+## `02` // TECH ARSENAL
 
 ### Languages
 
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,cpp,js,ts,python,bash&theme=dark" alt="Languages"/>
-</p>
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC)
+![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![C#](https://img.shields.io/badge/C%23-0D1117?style=for-the-badge&logo=csharp&logoColor=239120)
+![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![PHP](https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=777BB4)
+![Dart](https://img.shields.io/badge/Dart-0D1117?style=for-the-badge&logo=dart&logoColor=0175C2)
+![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
 
-### Web & Frameworks
+### Frameworks & Databases
 
-<p>
-  <img src="https://skillicons.dev/icons?i=flask,django,html,css,nodejs,dotnet&theme=dark" alt="Web Frameworks"/>
-</p>
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=FFFFFF)
+![Django REST](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=44B78B)
+![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=003B57)
+![.NET](https://img.shields.io/badge/.NET-0D1117?style=for-the-badge&logo=dotnet&logoColor=512BD4)
+![Apache](https://img.shields.io/badge/Apache-0D1117?style=for-the-badge&logo=apache&logoColor=D22128)
 
-### Databases
+### Tools & Platforms
 
-<p>
-  <img src="https://skillicons.dev/icons?i=sqlite,mysql&theme=dark" alt="Databases"/>
-</p>
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
+![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Windows Terminal](https://img.shields.io/badge/Windows_Terminal-0D1117?style=for-the-badge&logo=windowsterminal&logoColor=4D9FFF)
 
-### Tools & Systems
+### Creative & Testing Tools
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux,windows,apache&theme=dark" alt="Tools & Systems"/>
-</p>
+![Photoshop](https://img.shields.io/badge/Photoshop-0D1117?style=for-the-badge&logo=adobephotoshop&logoColor=31A8FF)
+![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-0D1117?style=for-the-badge&logo=adobepremierepro&logoColor=9999FF)
+![Canva](https://img.shields.io/badge/Canva-0D1117?style=for-the-badge&logo=canva&logoColor=00C4CC)
+![Blender](https://img.shields.io/badge/Blender-0D1117?style=for-the-badge&logo=blender&logoColor=F5792A)
+![Testing Library](https://img.shields.io/badge/Testing_Library-0D1117?style=for-the-badge&logo=testinglibrary&logoColor=E33332)
 
-### Video & Design
+## `03` // GITHUB ANALYTICS
 
-<p>
-  <img src="https://img.shields.io/badge/ADOBE_PREMIERE_PRO-000000?style=for-the-badge&logo=adobepremierepro&logoColor=4D9FFF" alt="Adobe Premiere Pro"/>
-  <img src="https://img.shields.io/badge/ADOBE_PHOTOSHOP-000000?style=for-the-badge&logo=adobephotoshop&logoColor=4D9FFF" alt="Adobe Photoshop"/>
-  <img src="https://img.shields.io/badge/CANVA-000000?style=for-the-badge&logo=canva&logoColor=4D9FFF" alt="Canva"/>
-  <img src="https://img.shields.io/badge/BLENDER-000000?style=for-the-badge&logo=blender&logoColor=4D9FFF" alt="Blender"/>
-</p>
+<div align="center">
 
-### Testing
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9" />
+<img width="49%" src="https://streak-stats.demolab.com?user=SLASH-X-exe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00BFFF&fire=007BFF&currStreakLabel=00BFFF" />
 
-<p>
-  <img src="https://img.shields.io/badge/TESTING--LIBRARY-000000?style=for-the-badge&logo=testinglibrary&logoColor=4D9FFF" alt="Testing Library"/>
-</p>
+<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SLASH-X-exe&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=C9D1D9" />
+
+</div>
+
+## `04` // CONTRIBUTION ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SLASH-X-exe&bg_color=0D1117&color=00BFFF&line=007BFF&point=FFFFFF&area=true&hide_border=true" width="100%" />
+
+</div>
+
+## `05` // DEVELOPER MINDSET
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%" />
+
+</div>
+
+## `06` // TOP CONTRIBUTED REPOSITORIES
+
+<div align="center">
+
+<img src="https://github-contributor-stats.vercel.app/api?username=SLASH-X-exe&limit=5&theme=dark&combine_all_yearly_contributions=true" width="80%" />
+
+</div>
 
 ---
 
-## / GITHUB ANALYTICS
+<div align="center">
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&hide_border=true&bg_color=000000&title_color=4D9FFF&text_color=C9D1D9&icon_color=4D9FFF&include_all_commits=true" alt="GitHub Stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=SLASH-X-exe&hide_border=true&background=000000&ring=4D9FFF&fire=4D9FFF&currStreakLabel=4D9FFF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=666666" alt="Streak"/>
-</p>
+### `ACCESS GRANTED`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SLASH-X-exe&layout=compact&hide_border=true&bg_color=000000&title_color=4D9FFF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
-</p>
+**Explore relentlessly. Build intelligently. Secure everything.**
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:007BFF,50:001F3F,100:050505&height=100&section=footer" width="100%" />
 
-## / CONTRIBUTION GRAPH
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SLASH-X-exe&bg_color=000000&color=4D9FFF&line=4D9FFF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
-</p>
-
----
-
-## / CONTACT
-
-<p align="center">
-  <a href="https://github.com/SLASH-X-exe">
-    <img src="https://img.shields.io/badge/GITHUB-SLASH--X--exe-000000?style=for-the-badge&logo=github&logoColor=4D9FFF" alt="GitHub"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SLASH-X-exe&style=flat-square&color=4D9FFF&label=PROFILE+VIEWS" alt="Profile Views"/>
-</p>
-
-<p align="center">
-  <sub>Built with precision. Driven by curiosity.</sub>
-</p>
+</div>
