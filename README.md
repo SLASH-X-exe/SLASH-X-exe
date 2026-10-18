@@ -1,6 +1,7 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=240&text=SLASH%2FX&fontSize=76&fontColor=00BFFF&stroke=007BFF&strokeWidth=1&background=0D1117&desc=CYBERSECURITY%20%2F%2F%20CODE%20%2F%2F%20ENGINEERING&descSize=14&descAlignY=72" width="100%" />
+<img src="./spider-header.svg" width="100%" alt="SLASH/X Animated Spider Web Header" />
 
 <br/>
 
