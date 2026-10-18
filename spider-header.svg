@@ -1,94 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080B10"/>
-      <stop offset="55%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#080B10"/>
-    </linearGradient>
-
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#89939F" stroke-opacity=".09" stroke-width=".7"/>
-    </pattern>
-
-    <g id="web">
-      <g fill="none" stroke="#929BA5" stroke-width="1" stroke-opacity=".34">
-        <path d="M0 0L-570 -170 M0 0L-570 -85 M0 0L-570 0 M0 0L-570 85 M0 0L-570 170"/>
-        <path d="M0 0L-420 -220 M0 0L-420 -110 M0 0L-420 110 M0 0L-420 220"/>
-        <path d="M0 0L-240 -240 M0 0L-240 -120 M0 0L-240 120 M0 0L-240 240"/>
-        <path d="M0 0L0 -260 M0 0L0 260"/>
-        <path d="M0 0L240 -240 M0 0L240 -120 M0 0L240 120 M0 0L240 240"/>
-        <path d="M0 0L420 -220 M0 0L420 -110 M0 0L420 110 M0 0L420 220"/>
-        <path d="M0 0L570 -170 M0 0L570 -85 M0 0L570 0 M0 0L570 85 M0 0L570 170"/>
-      </g>
-      <g fill="none" stroke="#929BA5" stroke-width="1" stroke-opacity=".28">
-        <path d="M-520 -140 Q0 -250 520 -140"/>
-        <path d="M-560 -100 Q0 -205 560 -100"/>
-        <path d="M-580 -55 Q0 -150 580 -55"/>
-        <path d="M-590 0 Q0 -85 590 0"/>
-        <path d="M-580 55 Q0 0 580 55"/>
-        <path d="M-560 110 Q0 85 560 110"/>
-        <path d="M-520 165 Q0 175 520 165"/>
-      </g>
-    </g>
-
-    <g id="spider" stroke="#AEB7C1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
-      <path d="M-5 -4L-14 -13L-22 -10 M-8 -1L-19 -3L-25 4 M-8 3L-18 11L-24 10 M-4 6L-10 17L-17 19"/>
-      <path d="M5 -4L14 -13L22 -10 M8 -1L19 -3L25 4 M8 3L18 11L24 10 M4 6L10 17L17 19"/>
-      <ellipse cx="0" cy="0" rx="6" ry="8" fill="#AEB7C1" stroke="#D0D6DC" stroke-width="1"/>
-      <circle cx="0" cy="-8" r="4.5" fill="#C2CAD2" stroke="#D0D6DC" stroke-width="1"/>
-      <circle cx="-1.5" cy="-9" r="1" fill="#00BFFF" stroke="none"/>
-      <circle cx="1.5" cy="-9" r="1" fill="#00BFFF" stroke="none"/>
-    </g>
-  </defs>
-
-  <rect width="1200" height="280" rx="8" fill="url(#bg)"/>
-  <rect width="1200" height="280" fill="url(#grid)"/>
-
-  <g transform="translate(600 140)">
-    <use href="#web"/>
+<escape><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <rect width="1200" height="360" fill="#05080d"/>
+  <g fill="none" stroke="#7d8794" stroke-width="0.7" opacity="0.58">
+    <path d="M0 0 L300 180 L0 360 M0 60 L300 180 L0 280 M0 140 L300 180 L60 360 M0 220 L300 180 L180 360 M60 0 L300 180 L300 0 M140 0 L300 180 L300 70 M0 0 L300 180 L120 0"/>
+    <path d="M1200 0 L900 180 L1200 360 M1200 60 L900 180 L1200 280 M1200 140 L900 180 L1140 360 M1200 220 L900 180 L1020 360 M1140 0 L900 180 L900 0 M1060 0 L900 180 L900 70 M1200 0 L900 180 L1080 0"/>
+    <path d="M0 0 Q140 80 300 180 Q140 280 0 360 M0 60 Q130 120 300 180 Q130 240 0 300 M60 0 Q170 80 300 180 Q170 280 60 360"/>
+    <path d="M1200 0 Q1060 80 900 180 Q1060 280 1200 360 M1200 60 Q1070 120 900 180 Q1070 240 1200 300 M1140 0 Q1030 80 900 180 Q1030 280 1140 360"/>
+    <path d="M0 0 L1200 0 M0 360 L1200 360"/>
   </g>
-
-  <g transform="translate(600 140)" fill="none" stroke="#929BA5" stroke-opacity=".25" stroke-width="1">
-    <path d="M-600 -110 Q-300 -190 0 -110 T600 -110"/>
-    <path d="M-600 110 Q-300 30 0 110 T600 110"/>
-    <path d="M-600 -65 Q-300 -125 0 -65 T600 -65"/>
-    <path d="M-600 65 Q-300 5 0 65 T600 65"/>
+  <g fill="none" stroke="#00aaff" stroke-width="1" opacity="0.7">
+    <path d="M0 28 H170 L205 55 M1200 28 H1030 L995 55"/>
+    <path d="M0 330 H150 L185 305 M1200 330 H1050 L1015 305"/>
   </g>
-
-  <path d="M0 1H1200" stroke="#007BFF" stroke-width="2" opacity=".9"/>
-  <path d="M0 279H1200" stroke="#007BFF" stroke-width="2" opacity=".9"/>
-
-  <g fill="#00BFFF" opacity=".7">
-    <circle cx="22" cy="22" r="2"/>
-    <circle cx="1178" cy="22" r="2"/>
-    <circle cx="22" cy="258" r="2"/>
-    <circle cx="1178" cy="258" r="2"/>
+  <g fill="#aab4c0">
+    <circle cx="300" cy="180" r="2"/><circle cx="900" cy="180" r="2"/>
+    <circle cx="120" cy="60" r="1.5"/><circle cx="1080" cy="60" r="1.5"/>
+    <circle cx="180" cy="300" r="1.5"/><circle cx="1020" cy="300" r="1.5"/>
   </g>
-
-  <g font-family="monospace" text-anchor="middle">
-    <text x="600" y="126" font-size="76" font-weight="bold" letter-spacing="3" fill="#00BFFF">SLΛSH/X</text>
-    <text x="600" y="164" font-size="14" letter-spacing="3" fill="#C9D1D9">CYBERSECURITY // CODE // ENGINEERING</text>
-    <path d="M425 181H775" stroke="#007BFF" stroke-width="1.5"/>
-    <text x="600" y="205" font-size="10" letter-spacing="4" fill="#89939F">SYSTEMS • SECURITY • DEVELOPMENT</text>
-  </g>
-
-  <g>
-    <path d="M0 0" fill="none"/>
-    <path d="M90 48 C180 30 235 78 315 58 S450 28 520 54 S670 80 750 48 S930 28 1110 56"
-          fill="none" stroke="#AEB7C1" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="4 5"/>
-    <path d="M90 232 C200 208 260 250 360 226 S540 204 620 230 S820 252 920 225 S1050 210 1110 232"
-          fill="none" stroke="#AEB7C1" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="4 5"/>
-
-    <g>
-      <animateMotion dur="18s" repeatCount="indefinite" rotate="auto" path="M90 48 C180 30 235 78 315 58 S450 28 520 54 S670 80 750 48 S930 28 1110 56 S930 28 750 48 S670 80 520 54 S450 28 315 58 S180 30 90 48"/>
-      <use href="#spider"/>
-    </g>
-
-    <g>
-      <animateMotion dur="22s" repeatCount="indefinite" rotate="auto" path="M1110 232 C1050 210 920 225 820 244 S620 230 540 210 S360 226 260 250 S150 208 90 232 S150 208 260 250 S360 226 540 210 S620 230 820 244 S1050 210 1110 232"/>
-      <g transform="scale(.7)">
-        <use href="#spider"/>
-      </g>
-    </g>
-  </g>
-</svg>
+  <text x="600" y="155" fill="#00bfff" font-family="monospace" font-size="58" font-weight="bold" text-anchor="middle" letter-spacing="8">SLASH/X</text>
+  <text x="600" y="195" fill="#aebdce" font-family="monospace" font-size="15" text-anchor="middle" letter-spacing="3">CYBERSECURITY // CODE // ENGINEERING</text>
+  <path d="M390 220 H810" stroke="#007bff" stroke-width="1" opacity="0.8"/>
+  <text x="600" y="250" fill="#8b9aab" font-family="monospace" font-size="12" text-anchor="middle" letter-spacing="2">THINK DEEPER. BUILD SMARTER.</text>
+</svg></escape>
