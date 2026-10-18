@@ -1,168 +1,147 @@
  <div align="center">
 
-# SLΛSH/X
-
-### `CYBERSECURITY // SOFTWARE DEVELOPMENT // ENGINEERING`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:001F3F,100:007BFF&height=200&section=header&text=SLASH%2FX&fontSize=65&fontColor=00BFFF&fontAlignY=38&desc=THINK%20DEEPER.%20CODE%20SMARTER.&descAlignY=60&descSize=16" width="100%" />
-
-**Code is my weapon. Logic is my edge.**
-
-I explore vulnerabilities, engineer tools, and transform complex problems into intelligent solutions.
-
-`Cybersecurity` / `Ethical Hacking` / `Software Engineering` / `Web Technologies`
+<img src="https://capsule-render.vercel.app/api?type=venom&height=240&text=SLASH%2FX&fontSize=76&fontColor=00BFFF&stroke=007BFF&strokeWidth=1&background=0D1117&desc=CYBERSECURITY%20%2F%2F%20CODE%20%2F%2F%20ENGINEERING&descSize=14&descAlignY=72" width="100%" />
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GITHUB-SLASH--X--exe-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
-[![Profile](https://img.shields.io/badge/PROFILE-ONLINE-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
+[![GitHub](https://img.shields.io/badge/GITHUB-SLASH--X--exe-0D1117?style=flat-square&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
+![Focus](https://img.shields.io/badge/FOCUS-CYBERSECURITY-0D1117?style=flat-square&logo=kalilinux&logoColor=00BFFF)
+![Status](https://img.shields.io/badge/STATUS-LEARNING%20%26%20BUILDING-0D1117?style=flat-square&labelColor=0D1117&color=007BFF)
+
+<br/>
+
+**I don't just write code. I build, explore, and understand how systems work.**
+
+`SECURITY` &nbsp; / &nbsp; `DEVELOPMENT` &nbsp; / &nbsp; `AUTOMATION`
 
 </div>
 
 ---
 
-## `01` // ABOUT ME
+<table>
+<tr>
+<td width="58%" valign="top">
 
-```python
-class SlashX:
-    def __init__(self):
-        self.alias = "SLΛSH/X"
-        self.role = "Cyber Dev"
+## `01` — OPERATOR PROFILE
 
-        self.interests = [
-            "Cybersecurity",
-            "Ethical Hacking",
-            "Software Development",
-            "Web Technologies"
-        ]
-
-        self.mindset = "Think deeper. Build smarter."
-        self.mission = "Secure systems. Solve problems."
-
-    def execute(self):
-        return "Explore. Engineer. Evolve."
-
-
-if __name__ == "__main__":
-    developer = SlashX()
-    print(developer.execute())
+```text
+IDENTITY   : SLASH/X
+DOMAIN     : CYBERSECURITY
+DISCIPLINE : SOFTWARE DEVELOPMENT
+INTERESTS  : WEB / SYSTEMS / SECURITY
+MINDSET    : LOGIC OVER NOISE
 ```
 
-- Exploring cybersecurity and ethical hacking.
-- Building software, websites, and developer tools.
-- Solving complex problems through logic and engineering.
-- Continuously learning, experimenting, and improving.
+I’m interested in cybersecurity, software engineering, web technologies, and building practical tools.
+
+- Exploring security concepts and defensive techniques.
+- Developing websites, scripts, and software projects.
+- Learning how applications and systems work.
+- Improving through experimentation and hands-on practice.
+
+</td>
+<td width="42%" valign="top">
+
+## `02` — CORE DIRECTIVES
+
+```python
+class SLASH_X:
+    focus = "Security"
+    build = "Software"
+    explore = "Systems"
+
+    def mission(self):
+        return [
+            "Learn",
+            "Build",
+            "Improve"
+        ]
+```
+
+**OBJECTIVE**
+
+Understand the system.  
+Build the solution.  
+Make it better.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `02` // TECH ARSENAL
-
-### `LANGUAGES`
+## `03` — TECH STACK
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC)
-![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
-![C#](https://img.shields.io/badge/C%23-0D1117?style=for-the-badge&logo=csharp&logoColor=239120)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![PHP](https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=777BB4)
-![Dart](https://img.shields.io/badge/Dart-0D1117?style=for-the-badge&logo=dart&logoColor=0175C2)
-![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
+**LANGUAGES**
 
-</div>
+<img src="https://skillicons.dev/icons?i=python,c,cpp,cs,java,js,ts,php,dart,bash&theme=dark&perline=10" />
 
-### `FRAMEWORKS & DATABASES`
+**WEB, FRAMEWORKS & DATABASES**
 
-<div align="center">
+<img src="https://skillicons.dev/icons?i=html,css,flask,django,dotnet,sqlite,mysql,apache&theme=dark&perline=8" />
 
-![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=FFFFFF)
-![Django REST](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=44B78B)
-![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=003B57)
-![.NET](https://img.shields.io/badge/.NET-0D1117?style=for-the-badge&logo=dotnet&logoColor=512BD4)
-![Apache](https://img.shields.io/badge/Apache-0D1117?style=for-the-badge&logo=apache&logoColor=D22128)
+**TOOLS & ENVIRONMENT**
 
-</div>
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,windows,vscode,visualstudio&theme=dark&perline=7" />
 
-### `DEVELOPMENT TOOLS`
+**CREATIVE TOOLS**
 
-<div align="center">
-
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Windows Terminal](https://img.shields.io/badge/Windows_Terminal-0D1117?style=for-the-badge&logo=windowsterminal&logoColor=4D9FFF)
-
-</div>
-
-### `CREATIVE & TESTING TOOLS`
-
-<div align="center">
-
-![Photoshop](https://img.shields.io/badge/Photoshop-0D1117?style=for-the-badge&logo=adobephotoshop&logoColor=31A8FF)
-![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-0D1117?style=for-the-badge&logo=adobepremierepro&logoColor=9999FF)
-![Canva](https://img.shields.io/badge/Canva-0D1117?style=for-the-badge&logo=canva&logoColor=00C4CC)
-![Blender](https://img.shields.io/badge/Blender-0D1117?style=for-the-badge&logo=blender&logoColor=F5792A)
-![Testing Library](https://img.shields.io/badge/Testing_Library-0D1117?style=for-the-badge&logo=testinglibrary&logoColor=E33332)
-
-</div>
-
----
-
-## `03` // GITHUB ANALYTICS
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9" width="49%" />
-
-<img src="https://streak-stats.demolab.com?user=SLASH-X-exe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00BFFF&fire=007BFF&currStreakLabel=00BFFF" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SLASH-X-exe&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=C9D1D9" width="45%" />
+<img src="https://skillicons.dev/icons?i=photoshop,premiere,blender,canva&theme=dark&perline=4" />
 
 </div>
 
 ---
 
-## `04` // CONTRIBUTION ACTIVITY
+## `04` — GITHUB METRICS
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/00BFFF/SLASH-X-exe" alt="Contribution Activity" width="100%" />
+<a href="https://github.com/SLASH-X-exe">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9&rank_icon=github" />
+</a>
+<a href="https://github.com/SLASH-X-exe">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SLASH-X-exe&layout=compact&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=C9D1D9" />
+</a>
 
 <br/>
 
-[![Contribution History](https://img.shields.io/badge/VIEW_CONTRIBUTIONS-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=overview)
+<img src="https://streak-stats.demolab.com?user=SLASH-X-exe&hide_border=true&background=0D1117&ring=00BFFF&fire=007BFF&currStreakLabel=00BFFF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=777777" width="70%" />
 
 </div>
 
 ---
 
-## `05` // DEVELOPER MINDSET
+## `05` — CONTRIBUTION MAP
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%" />
+<img src="https://ghchart.rshah.org/00BFFF/SLASH-X-exe" alt="SLASH-X contribution graph" width="100%" />
+
+[![Activity](https://img.shields.io/badge/EXPLORE_ACTIVITY-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=overview)
 
 </div>
 
 ---
 
-## `06` // REPOSITORIES & ACTIVITY
+## `06` — PROJECT ACCESS
 
 <div align="center">
 
-[![Repositories](https://img.shields.io/badge/ALL_REPOSITORIES-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=repositories)
+<a href="https://github.com/SLASH-X-exe?tab=repositories">
+<img src="https://img.shields.io/badge/01__REPOSITORIES-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" />
+</a>
+<a href="https://github.com/SLASH-X-exe?tab=stars">
+<img src="https://img.shields.io/badge/02__STARRED_PROJECTS-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" />
+</a>
+<a href="https://github.com/SLASH-X-exe?tab=followers">
+<img src="https://img.shields.io/badge/03__NETWORK-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" />
+</a>
 
-[![Starred Projects](https://img.shields.io/badge/STARRED_PROJECTS-0D1117?style=for-the-badge&logo=github&logoColor=FFD700)](https://github.com/SLASH-X-exe?tab=stars)
+<br/><br/>
 
-[![Followers](https://img.shields.io/badge/FOLLOWERS-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=followers)
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9" alt="GitHub Account Statistics" width="80%" />
+[**OPEN GITHUB PROFILE →**](https://github.com/SLASH-X-exe)
 
 </div>
 
@@ -170,12 +149,17 @@ if __name__ == "__main__":
 
 <div align="center">
 
-### `SYSTEM STATUS: OPERATIONAL`
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=007BFF&section=footer" width="100%" />
 
-`EXPLORE` / `ENGINEER` / `SECURE` / `EVOLVE`
+```text
+[ SYSTEM ONLINE ]
+LEARN     -> BUILD
+BUILD     -> TEST
+TEST      -> IMPROVE
+```
 
-**Think deeper. Code smarter. Secure everything.**
+**SLΛSH/X**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:007BFF,50:001F3F,100:050505&height=100&section=footer" width="100%" />
+`THINK DEEPER. BUILD SMARTER.`
 
 </div>
