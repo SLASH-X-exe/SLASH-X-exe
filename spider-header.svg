@@ -1,23 +1,284 @@
-<escape><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
-  <rect width="1200" height="360" fill="#05080d"/>
-  <g fill="none" stroke="#7d8794" stroke-width="0.7" opacity="0.58">
-    <path d="M0 0 L300 180 L0 360 M0 60 L300 180 L0 280 M0 140 L300 180 L60 360 M0 220 L300 180 L180 360 M60 0 L300 180 L300 0 M140 0 L300 180 L300 70 M0 0 L300 180 L120 0"/>
-    <path d="M1200 0 L900 180 L1200 360 M1200 60 L900 180 L1200 280 M1200 140 L900 180 L1140 360 M1200 220 L900 180 L1020 360 M1140 0 L900 180 L900 0 M1060 0 L900 180 L900 70 M1200 0 L900 180 L1080 0"/>
-    <path d="M0 0 Q140 80 300 180 Q140 280 0 360 M0 60 Q130 120 300 180 Q130 240 0 300 M60 0 Q170 80 300 180 Q170 280 60 360"/>
-    <path d="M1200 0 Q1060 80 900 180 Q1060 280 1200 360 M1200 60 Q1070 120 900 180 Q1070 240 1200 300 M1140 0 Q1030 80 900 180 Q1030 280 1140 360"/>
-    <path d="M0 0 L1200 0 M0 360 L1200 360"/>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="320" viewBox="0 0 1200 320"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">SLASH/X Cybersecurity Animated Spider Header</title>
+  <desc id="desc">A dark cyber-themed banner with a silver spider crawling across a detailed web and electric blue interface elements.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080D"/>
+      <stop offset=".48" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#03060A"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow">
+      <stop offset="0" stop-color="#007BFF" stop-opacity=".15"/>
+      <stop offset=".6" stop-color="#007BFF" stop-opacity=".035"/>
+      <stop offset="1" stop-color="#007BFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="blueLine">
+      <stop stop-color="#007BFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00BFFF"/>
+      <stop offset="1" stop-color="#007BFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="spiderBody" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F0F4F8"/>
+      <stop offset=".45" stop-color="#AEB7C1"/>
+      <stop offset="1" stop-color="#586473"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#8290A0" stroke-opacity=".075" stroke-width=".7"/>
+      <circle cx="0" cy="0" r="1" fill="#00BFFF" fill-opacity=".22"/>
+    </pattern>
+
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".8" fill="#91A0B1" opacity=".24"/>
+    </pattern>
+
+    <filter id="blueGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="spiderGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <g id="webCorner" fill="none" stroke="#A7B2C0"
+       stroke-width=".85" stroke-opacity=".31">
+      <path d="M0 0L340 0 M0 0L0 240
+               M0 0L340 240 M0 0L240 340
+               M0 0L170 340 M0 0L340 170"/>
+      <path d="M55 0 Q48 48 0 55
+               M115 0 Q100 100 0 115
+               M180 0 Q155 155 0 180
+               M245 0 Q210 210 0 245
+               M0 55 Q95 65 115 0
+               M0 115 Q145 140 180 0
+               M0 180 Q195 205 245 0"
+            stroke-opacity=".75"/>
+      <path d="M55 55 Q130 35 180 55 Q155 130 55 180 Q35 130 55 55
+               M115 115 Q190 90 245 115 Q215 190 115 245 Q90 190 115 115"
+            stroke-opacity=".52"/>
+    </g>
+
+    <g id="spider">
+      <g fill="none" stroke="#8995A4" stroke-width="2.4"
+         stroke-linecap="round" stroke-linejoin="round">
+
+        <path d="M-5 -3L-13 -12L-23 -13L-29 -20"/>
+        <path d="M-7 0L-19 -3L-29 2L-34 -2"/>
+        <path d="M-7 4L-18 10L-27 9L-32 15"/>
+        <path d="M-4 7L-10 18L-18 23L-20 29"/>
+
+        <path d="M5 -3L13 -12L23 -13L29 -20"/>
+        <path d="M7 0L19 -3L29 2L34 -2"/>
+        <path d="M7 4L18 10L27 9L32 15"/>
+        <path d="M4 7L10 18L18 23L20 29"/>
+      </g>
+
+      <g fill="none" stroke="#D7E0E8" stroke-opacity=".7" stroke-width=".8">
+        <path d="M-13 -12L-17 -17 M-19 -3L-24 -7 M-18 10L-23 16 M-10 18L-12 24"/>
+        <path d="M13 -12L17 -17 M19 -3L24 -7 M18 10L23 16 M10 18L12 24"/>
+      </g>
+
+      <ellipse cx="0" cy="5" rx="8" ry="11"
+               fill="url(#spiderBody)" stroke="#E0E7EF" stroke-width=".9"/>
+
+      <path d="M-5 3Q0 -2 5 3 M-5 8Q0 13 5 8"
+            fill="none" stroke="#667484" stroke-width="1"/>
+
+      <circle cx="0" cy="-8" r="6"
+              fill="url(#spiderBody)" stroke="#E0E7EF" stroke-width="1"/>
+
+      <circle cx="-2" cy="-9" r="1.45" fill="#00BFFF" filter="url(#blueGlow)"/>
+      <circle cx="2" cy="-9" r="1.45" fill="#00BFFF" filter="url(#blueGlow)"/>
+
+      <path d="M-3 -13L-7 -17 M3 -13L7 -17"
+            stroke="#AEB7C1" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+
+    <g id="node">
+      <circle r="5" fill="#00BFFF" opacity=".12"/>
+      <circle r="2" fill="#00BFFF"/>
+      <circle r="4" fill="none" stroke="#00BFFF" stroke-opacity=".65"/>
+    </g>
+
+    <g id="cornerMarks" fill="none" stroke="#00BFFF" stroke-width="1.3">
+      <path d="M0 24V0H38 M0 12H12 M24 0V8"/>
+    </g>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="320" rx="8" fill="url(#background)"/>
+  <rect width="1200" height="320" fill="url(#microGrid)"/>
+  <ellipse cx="600" cy="150" rx="580" ry="260" fill="url(#centerGlow)"/>
+
+  <!-- TECHNICAL DOT FIELDS -->
+  <rect x="35" y="75" width="190" height="165" fill="url(#dots)" opacity=".7"/>
+  <rect x="975" y="75" width="190" height="165" fill="url(#dots)" opacity=".7"/>
+
+  <!-- FULL WEB STRUCTURE -->
+  <g>
+    <use xlink:href="#webCorner" transform="translate(0 0)"/>
+    <use xlink:href="#webCorner" transform="translate(1200 0) scale(-1 1)"/>
+    <use xlink:href="#webCorner" transform="translate(0 320) scale(1 -1)"/>
+    <use xlink:href="#webCorner" transform="translate(1200 320) scale(-1 -1)"/>
   </g>
-  <g fill="none" stroke="#00aaff" stroke-width="1" opacity="0.7">
-    <path d="M0 28 H170 L205 55 M1200 28 H1030 L995 55"/>
-    <path d="M0 330 H150 L185 305 M1200 330 H1050 L1015 305"/>
+
+  <!-- CENTER RADIAL WEB -->
+  <g transform="translate(600 150)" fill="none"
+     stroke="#9CA9B8" stroke-width=".8" stroke-opacity=".23">
+
+    <path d="M0 0L-600 -150 M0 0L-600 -80
+             M0 0L-600 0 M0 0L-600 80
+             M0 0L-600 150"/>
+
+    <path d="M0 0L600 -150 M0 0L600 -80
+             M0 0L600 0 M0 0L600 80
+             M0 0L600 150"/>
+
+    <path d="M0 0L-420 -150 M0 0L-300 -150
+             M0 0L-150 -150 M0 0L150 -150
+             M0 0L300 -150 M0 0L420 -150"/>
+
+    <path d="M-550 -125Q0 -240 550 -125
+             M-590 -85Q0 -190 590 -85
+             M-600 -42Q0 -115 600 -42
+             M-600 42Q0 -5 600 42
+             M-560 100Q0 55 560 100
+             M-470 145Q0 130 470 145"/>
+
+    <path d="M-480 -120Q0 -215 480 -120
+             M-520 -72Q0 -160 520 -72
+             M-520 -20Q0 -95 520 -20
+             M-520 35Q0 10 520 35
+             M-450 95Q0 65 450 95"/>
   </g>
-  <g fill="#aab4c0">
-    <circle cx="300" cy="180" r="2"/><circle cx="900" cy="180" r="2"/>
-    <circle cx="120" cy="60" r="1.5"/><circle cx="1080" cy="60" r="1.5"/>
-    <circle cx="180" cy="300" r="1.5"/><circle cx="1020" cy="300" r="1.5"/>
+
+  <!-- MOVING DATA SIGNALS -->
+  <g fill="none" stroke="#00BFFF" stroke-width="1.2" opacity=".8">
+    <path d="M70 65H260">
+      <animate attributeName="stroke-dasharray" values="0 190;45 145;0 190"
+               dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M940 255H1130">
+      <animate attributeName="stroke-dasharray" values="0 190;55 135;0 190"
+               dur="6s" repeatCount="indefinite"/>
+    </path>
   </g>
-  <text x="600" y="155" fill="#00bfff" font-family="monospace" font-size="58" font-weight="bold" text-anchor="middle" letter-spacing="8">SLASH/X</text>
-  <text x="600" y="195" fill="#aebdce" font-family="monospace" font-size="15" text-anchor="middle" letter-spacing="3">CYBERSECURITY // CODE // ENGINEERING</text>
-  <path d="M390 220 H810" stroke="#007bff" stroke-width="1" opacity="0.8"/>
-  <text x="600" y="250" fill="#8b9aab" font-family="monospace" font-size="12" text-anchor="middle" letter-spacing="2">THINK DEEPER. BUILD SMARTER.</text>
-</svg></escape>
+
+  <!-- FRAME -->
+  <path d="M0 2H1200 M0 318H1200"
+        stroke="url(#blueLine)" stroke-width="2"/>
+
+  <use xlink:href="#cornerMarks" x="18" y="18"/>
+  <use xlink:href="#cornerMarks" x="1182" y="18" transform="translate(1200 0) scale(-1 1)"/>
+  <use xlink:href="#cornerMarks" x="18" y="278" transform="translate(0 320) scale(1 -1)"/>
+  <use xlink:href="#cornerMarks" x="1182" y="278" transform="translate(1200 320) scale(-1 -1)"/>
+
+  <!-- NETWORK NODES -->
+  <use xlink:href="#node" x="75" y="65"/>
+  <use xlink:href="#node" x="260" y="65"/>
+  <use xlink:href="#node" x="940" y="255"/>
+  <use xlink:href="#node" x="1125" y="255"/>
+
+  <!-- TITLE -->
+  <g font-family="monospace" text-anchor="middle">
+    <text x="603" y="120" font-size="76" font-weight="bold"
+          letter-spacing="4" fill="#007BFF" opacity=".4">SLΛSH/X</text>
+
+    <text x="600" y="117" font-size="76" font-weight="bold"
+          letter-spacing="4" fill="#00BFFF">SLΛSH/X</text>
+
+    <text x="600" y="155" font-size="13"
+          letter-spacing="4" fill="#D0D8E2">
+      CYBERSECURITY // CODE // ENGINEERING
+    </text>
+
+    <path d="M390 170H810" stroke="#007BFF" stroke-width="1"/>
+    <path d="M490 170H710" stroke="#00BFFF" stroke-width="2" filter="url(#blueGlow)"/>
+
+    <text x="600" y="192" font-size="10"
+          letter-spacing="3.5" fill="#8998AA">
+      SYSTEMS • SECURITY • DEVELOPMENT
+    </text>
+  </g>
+
+  <!-- LEFT HUD -->
+  <g font-family="monospace" font-size="9" fill="#8294A8">
+    <text x="48" y="110">NET://ACTIVE</text>
+    <text x="48" y="124" fill="#00BFFF">WEB_NODE_01</text>
+    <text x="48" y="211">TRACE_STATUS</text>
+    <text x="48" y="225" fill="#00BFFF">MONITORING</text>
+  </g>
+
+  <!-- RIGHT HUD -->
+  <g font-family="monospace" font-size="9" text-anchor="end" fill="#8294A8">
+    <text x="1152" y="110">SEC://ONLINE</text>
+    <text x="1152" y="124" fill="#00BFFF">ENCRYPTED</text>
+    <text x="1152" y="211">SYSTEM_CORE</text>
+    <text x="1152" y="225" fill="#00BFFF">OPERATIONAL</text>
+  </g>
+
+  <!-- ANIMATED SPIDER: UPPER WEB -->
+  <g>
+    <path d="M80 45C170 22 230 78 320 48
+             S470 25 560 48S730 80 820 48
+             S1000 23 1120 50"
+          fill="none" stroke="#AEB7C1" stroke-width="1.2"
+          stroke-opacity=".65" stroke-dasharray="3 5"/>
+
+    <path d="M80 45C170 22 230 78 320 48
+             S470 25 560 48S730 80 820 48
+             S1000 23 1120 50"
+          fill="none" stroke="#00BFFF" stroke-opacity=".15" stroke-width="5"/>
+
+    <g>
+      <animateMotion dur="20s" repeatCount="indefinite"
+        rotate="auto"
+        path="M80 45C170 22 230 78 320 48 S470 25 560 48 S730 80 820 48 S1000 23 1120 50 S1000 23 820 48 S730 80 560 48 S470 25 320 48 S170 22 80 45"/>
+      <g transform="scale(.85)">
+        <use xlink:href="#spider" filter="url(#spiderGlow)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ANIMATED SPIDER: LOWER WEB -->
+  <g>
+    <path d="M1120 266C1030 238 960 282 860 255
+             S700 235 600 258S420 282 330 255
+             S160 238 80 266"
+          fill="none" stroke="#AEB7C1" stroke-width="1.1"
+          stroke-opacity=".52" stroke-dasharray="3 5"/>
+
+    <g>
+      <animateMotion dur="26s" repeatCount="indefinite"
+        rotate="auto"
+        path="M1120 266C1030 238 960 282 860 255 S700 235 600 258 S420 282 330 255 S160 238 80 266 S160 238 330 255 S420 282 600 258 S700 235 860 255 S1030 238 1120 266"/>
+      <g transform="scale(.62)">
+        <use xlink:href="#spider"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- SUBTLE WEB PULSE -->
+  <rect x="1" y="1" width="1198" height="318" rx="7"
+        fill="none" stroke="#00BFFF" stroke-opacity=".15">
+    <animate attributeName="stroke-opacity"
+             values=".08;.28;.08" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
