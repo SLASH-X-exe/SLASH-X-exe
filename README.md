@@ -13,7 +13,7 @@ I explore vulnerabilities, engineer tools, and transform complex problems into i
 Cybersecurity | Ethical Hacking | Software Development | Web Technologies
 
 [![GitHub](https://img.shields.io/badge/GitHub-SLASH--X--exe-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
-![Profile Views](https://komarev.com/ghpvc/?username=SLASH-X-exe&style=for-the-badge&color=007BFF&label=PROFILE%20VIEWS)
+[![Profile](https://img.shields.io/badge/PROFILE-SLASH--X--exe-007BFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SLASH-X-exe)
 
 </div>
 
