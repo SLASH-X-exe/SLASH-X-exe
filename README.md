@@ -13,7 +13,7 @@ I explore vulnerabilities, engineer tools, and transform complex problems into i
 Cybersecurity | Ethical Hacking | Software Development | Web Technologies
 
 [![GitHub](https://img.shields.io/badge/GitHub-SLASH--X--exe-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
-[![Profile Views](https://komarev.com/ghpvc/?username=SLASH-X-exe&style=for-the-badge&color=007BFF&label=PROFILE+VIEWS)](https://github.com/SLASH-X-exe)
+![Profile Views](https://komarev.com/ghpvc/?username=SLASH-X-exe&style=for-the-badge&color=007BFF&label=PROFILE%20VIEWS)
 
 </div>
 
@@ -121,19 +121,13 @@ print(me.motto())
 
 <div align="center">
 
-<a href="https://github.com/SLASH-X-exe?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE-ALL_REPOSITORIES-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" alt="Explore Repositories" />
-</a>
+[![Repositories](https://img.shields.io/badge/EXPLORE-ALL_REPOSITORIES-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=repositories)
 
-<a href="https://github.com/SLASH-X-exe?tab=stars">
-  <img src="https://img.shields.io/badge/EXPLORE-STARRED_PROJECTS-0D1117?style=for-the-badge&logo=github&logoColor=FFD700" alt="Starred Projects" />
-</a>
+[![Starred Projects](https://img.shields.io/badge/EXPLORE-STARRED_PROJECTS-0D1117?style=for-the-badge&logo=github&logoColor=FFD700)](https://github.com/SLASH-X-exe?tab=stars)
 
-<a href="https://github.com/SLASH-X-exe?tab=followers">
-  <img src="https://img.shields.io/badge/VIEW-FOLLOWERS-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub Followers" />
-</a>
+[![Followers](https://img.shields.io/badge/VIEW-FOLLOWERS-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=followers)
 
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9" alt="GitHub Account Statistics" width="80%" />
 
