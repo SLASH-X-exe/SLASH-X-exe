@@ -8,8 +8,9 @@
 
 **Code is my weapon. Logic is my edge.**
 
-I explore vulnerabilities, engineer tools, and transform complex problems into intelligent solutions.  
-Focused on cybersecurity, ethical hacking, software engineering, and web technologies.
+I explore vulnerabilities, engineer tools, and transform complex problems into intelligent solutions.
+
+Cybersecurity | Ethical Hacking | Software Development | Web Technologies
 
 [![GitHub](https://img.shields.io/badge/GitHub-SLASH--X--exe-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe)
 [![Profile Views](https://komarev.com/ghpvc/?username=SLASH-X-exe&style=for-the-badge&color=007BFF&label=PROFILE+VIEWS)](https://github.com/SLASH-X-exe)
@@ -87,6 +88,7 @@ class SlashX:
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9" />
+
 <img width="49%" src="https://streak-stats.demolab.com?user=SLASH-X-exe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00BFFF&fire=007BFF&currStreakLabel=00BFFF" />
 
 <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SLASH-X-exe&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=C9D1D9" />
@@ -97,7 +99,9 @@ class SlashX:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SLASH-X-exe&bg_color=0D1117&color=00BFFF&line=007BFF&point=FFFFFF&area=true&hide_border=true" width="100%" />
+<img src="https://ghchart.rshah.org/00BFFF/SLASH-X-exe" alt="SLASH-X Contribution Graph" width="100%" />
+
+[View Full Contribution History](https://github.com/SLASH-X-exe)
 
 </div>
 
