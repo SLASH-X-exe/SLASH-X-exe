@@ -3,11 +3,11 @@
      width="1200" height="320" viewBox="0 0 1200 320"
      role="img" aria-labelledby="title desc">
 
-  <title id="title">SLASH/X Cybersecurity Animated Spider Header v2</title>
-  <desc id="desc">Dark cyber banner with animated silver spiders crawling across a glowing web, live HUD telemetry, glitch title and electric blue interface.</desc>
+  <title id="title">SLASH/X Cybersecurity — Realistic Spider Header</title>
+  <desc id="desc">Dark cyber banner with a realistic anatomically detailed spider crawling across a glowing web.</desc>
 
   <defs>
-    <!-- ===== GRADIENTS ===== -->
+    <!-- ============ GRADIENTS ============ -->
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#04070C"/>
       <stop offset=".5" stop-color="#0B1018"/>
@@ -15,8 +15,8 @@
     </linearGradient>
 
     <radialGradient id="centerGlow" cx=".5" cy=".47">
-      <stop offset="0" stop-color="#007BFF" stop-opacity=".22"/>
-      <stop offset=".55" stop-color="#007BFF" stop-opacity=".05"/>
+      <stop offset="0" stop-color="#007BFF" stop-opacity=".2"/>
+      <stop offset=".55" stop-color="#007BFF" stop-opacity=".04"/>
       <stop offset="1" stop-color="#007BFF" stop-opacity="0"/>
     </radialGradient>
 
@@ -26,64 +26,75 @@
       <stop offset="1" stop-color="#007BFF" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="spiderBody" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset=".35" stop-color="#D6DEE7"/>
-      <stop offset=".7" stop-color="#8A97A6"/>
-      <stop offset="1" stop-color="#3E4855"/>
-    </linearGradient>
-
-    <linearGradient id="spiderLeg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#E8EEF4"/>
-      <stop offset="1" stop-color="#6B7787"/>
-    </linearGradient>
-
-    <radialGradient id="eyeGlow">
-      <stop offset="0" stop-color="#7FE3FF"/>
-      <stop offset=".5" stop-color="#00BFFF"/>
-      <stop offset="1" stop-color="#007BFF" stop-opacity="0"/>
+    <!-- Realistic spider gradients -->
+    <radialGradient id="abdomenGrad" cx=".4" cy=".35" r=".7">
+      <stop offset="0" stop-color="#E8EEF5"/>
+      <stop offset=".3" stop-color="#A8B4C4"/>
+      <stop offset=".65" stop-color="#5A6778"/>
+      <stop offset="1" stop-color="#2A323C"/>
     </radialGradient>
 
-    <!-- ===== PATTERNS ===== -->
+    <radialGradient id="cephaloGrad" cx=".4" cy=".4" r=".7">
+      <stop offset="0" stop-color="#DCE4EE"/>
+      <stop offset=".5" stop-color="#8A97A8"/>
+      <stop offset="1" stop-color="#3A434F"/>
+    </radialGradient>
+
+    <linearGradient id="legGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#DDE5EF"/>
+      <stop offset=".4" stop-color="#9AA6B5"/>
+      <stop offset=".8" stop-color="#5A6675"/>
+      <stop offset="1" stop-color="#2E353E"/>
+    </linearGradient>
+
+    <radialGradient id="eyeGrad">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".35" stop-color="#7FE3FF"/>
+      <stop offset=".7" stop-color="#00BFFF"/>
+      <stop offset="1" stop-color="#005A9E"/>
+    </radialGradient>
+
+    <radialGradient id="eyeGlowSoft">
+      <stop offset="0" stop-color="#00BFFF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#00BFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ============ PATTERNS ============ -->
     <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M24 0H0V24" fill="none" stroke="#8290A0" stroke-opacity=".07" stroke-width=".7"/>
       <circle cx="0" cy="0" r="1" fill="#00BFFF" fill-opacity=".22"/>
     </pattern>
-
     <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r=".8" fill="#91A0B1" opacity=".22"/>
     </pattern>
-
     <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#00BFFF" opacity=".025"/>
     </pattern>
 
-    <!-- ===== FILTERS ===== -->
+    <!-- ============ FILTERS ============ -->
     <filter id="blueGlow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="2.2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-
     <filter id="spiderGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="1.8" result="s"/>
+      <feGaussianBlur stdDeviation="1.6" result="s"/>
       <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <filter id="glitchR" x="-5%" y="-5%" width="110%" height="110%">
-      <feOffset in="SourceGraphic" dx="-1.5" dy="0" result="o"/>
-      <feColorMatrix in="o" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .6 0"/>
+    <!-- inner shadow for realistic body depth -->
+    <filter id="bodyDepth" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur"/>
+      <feOffset dx="0.6" dy="0.9" result="off"/>
+      <feComposite in="off" in2="SourceAlpha" operator="arithmetic"
+                   k1="0" k2="0" k3="-1" k4="0" result="inner"/>
+      <feFlood flood-color="#0B1218" flood-opacity=".85"/>
+      <feComposite in2="inner" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="shadow"/>
+      </feMerge>
     </filter>
-    <filter id="glitchC" x="-5%" y="-5%" width="110%" height="110%">
-      <feOffset in="SourceGraphic" dx="1.5" dy="0" result="o"/>
-      <feColorMatrix in="o" type="matrix" values="0 0 0 0 0  0 1 1 0 0  0 0 0 0 0  0 0 0 .6 0"/>
-    </filter>
 
-    <!-- ===== REUSABLE: WEB CORNER ===== -->
+    <!-- ============ REUSABLE: WEB CORNER ============ -->
     <g id="webCorner" fill="none" stroke="#A7B2C0" stroke-width=".85" stroke-opacity=".31">
       <path d="M0 0L340 0 M0 0L0 240 M0 0L340 240 M0 0L240 340 M0 0L170 340 M0 0L340 170"/>
       <path d="M55 0 Q48 48 0 55 M115 0 Q100 100 0 115 M180 0 Q155 155 0 180
@@ -93,80 +104,188 @@
                M115 115 Q190 90 245 115 Q215 190 115 245 Q90 190 115 115" stroke-opacity=".52"/>
     </g>
 
-    <!-- ===== REUSABLE: ADVANCED SPIDER (with articulated legs) ===== -->
-    <g id="spiderAdv">
-      <!-- Legs: 4 per side, animated subtle waggle via animateTransform -->
-      <g fill="none" stroke="url(#spiderLeg)" stroke-width="2.6"
-         stroke-linecap="round" stroke-linejoin="round">
-        <!-- LEFT -->
-        <g>
-          <path d="M-5 -3L-13 -12L-23 -13L-29 -20">
+    <!-- ============ 🕷️ REALISTIC SPIDER ============ -->
+    <!-- ViewBox center = (0,0). Body axis along Y. Head points UP (-Y). -->
+    <g id="realSpider">
+
+      <!-- ---- LEGS (8 total: 4 left, 4 right) ---- -->
+      <!-- Each leg: coxa→femur→tibia→tarsus with 3 joints -->
+      <g fill="none" stroke="url(#legGrad)" stroke-linecap="round" stroke-linejoin="round">
+
+        <!-- ===== LEFT SIDE ===== -->
+        <!-- L1 (front) -->
+        <g stroke-width="2.6">
+          <path d="M-5,-6 L-14,-14 L-26,-16 L-34,-24">
             <animateTransform attributeName="transform" type="rotate"
-              values="-2 -5 -3;2 -5 -3;-2 -5 -3" dur="1.6s" repeatCount="indefinite"/>
-          </path>
-          <path d="M-7 0L-19 -3L-29 2L-34 -2">
-            <animateTransform attributeName="transform" type="rotate"
-              values="2 -7 0;-2 -7 0;2 -7 0" dur="1.9s" repeatCount="indefinite"/>
-          </path>
-          <path d="M-7 4L-18 10L-27 9L-32 15">
-            <animateTransform attributeName="transform" type="rotate"
-              values="-2 -7 4;2 -7 4;-2 -7 4" dur="1.7s" repeatCount="indefinite"/>
-          </path>
-          <path d="M-4 7L-10 18L-18 23L-20 29">
-            <animateTransform attributeName="transform" type="rotate"
-              values="2 -4 7;-2 -4 7;2 -4 7" dur="2.1s" repeatCount="indefinite"/>
+              values="-3 -5 -6; 1 -5 -6; -3 -5 -6" dur="1.4s" repeatCount="indefinite"/>
           </path>
         </g>
-        <!-- RIGHT -->
-        <g>
-          <path d="M5 -3L13 -12L23 -13L29 -20">
+        <g stroke-width="1.1" stroke="#E8EEF5" opacity=".55">
+          <path d="M-14,-14 L-26,-16"/>
+        </g>
+
+        <!-- L2 -->
+        <g stroke-width="2.8">
+          <path d="M-7,-2 L-22,-8 L-34,-4 L-42,-10">
             <animateTransform attributeName="transform" type="rotate"
-              values="2 5 -3;-2 5 -3;2 5 -3" dur="1.6s" repeatCount="indefinite"/>
+              values="2 -7 -2; -2 -7 -2; 2 -7 -2" dur="1.7s" repeatCount="indefinite"/>
           </path>
-          <path d="M7 0L19 -3L29 2L34 -2">
+        </g>
+        <g stroke-width="1.1" stroke="#E8EEF5" opacity=".5">
+          <path d="M-22,-8 L-34,-4"/>
+        </g>
+
+        <!-- L3 -->
+        <g stroke-width="2.8">
+          <path d="M-7,4 L-22,12 L-33,10 L-40,18">
             <animateTransform attributeName="transform" type="rotate"
-              values="-2 7 0;2 7 0;-2 7 0" dur="1.9s" repeatCount="indefinite"/>
+              values="-2 -7 4; 2 -7 4; -2 -7 4" dur="1.9s" repeatCount="indefinite"/>
           </path>
-          <path d="M7 4L18 10L27 9L32 15">
+        </g>
+        <g stroke-width="1.1" stroke="#E8EEF5" opacity=".5">
+          <path d="M-22,12 L-33,10"/>
+        </g>
+
+        <!-- L4 (back) -->
+        <g stroke-width="2.4">
+          <path d="M-4,8 L-12,22 L-22,28 L-26,38">
             <animateTransform attributeName="transform" type="rotate"
-              values="2 7 4;-2 7 4;2 7 4" dur="1.7s" repeatCount="indefinite"/>
+              values="3 -4 8; -1 -4 8; 3 -4 8" dur="2.2s" repeatCount="indefinite"/>
           </path>
-          <path d="M4 7L10 18L18 23L20 29">
+        </g>
+        <g stroke-width="1" stroke="#E8EEF5" opacity=".45">
+          <path d="M-12,22 L-22,28"/>
+        </g>
+
+        <!-- ===== RIGHT SIDE (mirror) ===== -->
+        <!-- R1 -->
+        <g stroke-width="2.6">
+          <path d="M5,-6 L14,-14 L26,-16 L34,-24">
             <animateTransform attributeName="transform" type="rotate"
-              values="-2 4 7;2 4 7;-2 4 7" dur="2.1s" repeatCount="indefinite"/>
+              values="3 5 -6; -1 5 -6; 3 5 -6" dur="1.4s" repeatCount="indefinite"/>
           </path>
+        </g>
+        <g stroke-width="1.1" stroke="#E8EEF5" opacity=".55">
+          <path d="M14,-14 L26,-16"/>
+        </g>
+
+        <!-- R2 -->
+        <g stroke-width="2.8">
+          <path d="M7,-2 L22,-8 L34,-4 L42,-10">
+            <animateTransform attributeName="transform" type="rotate"
+              values="-2 7 -2; 2 7 -2; -2 7 -2" dur="1.7s" repeatCount="indefinite"/>
+          </path>
+        </g>
+        <g stroke-width="1.1" stroke="#E8EEF5" opacity=".5">
+          <path d="M22,-8 L34,-4"/>
+        </g>
+
+        <!-- R3 -->
+        <g stroke-width="2.8">
+          <path d="M7,4 L22,12 L33,10 L40,18">
+            <animateTransform attributeName="transform" type="rotate"
+              values="2 7 4; -2 7 4; 2 7 4" dur="1.9s" repeatCount="indefinite"/>
+          </path>
+        </g>
+        <g stroke-width="1.1" stroke="#E8EEF5" opacity=".5">
+          <path d="M22,12 L33,10"/>
+        </g>
+
+        <!-- R4 -->
+        <g stroke-width="2.4">
+          <path d="M4,8 L12,22 L22,28 L26,38">
+            <animateTransform attributeName="transform" type="rotate"
+              values="-3 4 8; 1 4 8; -3 4 8" dur="2.2s" repeatCount="indefinite"/>
+          </path>
+        </g>
+        <g stroke-width="1" stroke="#E8EEF5" opacity=".45">
+          <path d="M12,22 L22,28"/>
+        </g>
+
+        <!-- leg setae (tiny hairs) -->
+        <g stroke="#C9D3DE" stroke-width=".5" opacity=".5">
+          <path d="M-16,-14 L-18,-17 M-28,-15 L-30,-18"/>
+          <path d="M-24,-7 L-26,-10 M-36,-4 L-38,-7"/>
+          <path d="M-24,12 L-26,15 M-35,10 L-37,13"/>
+          <path d="M-14,23 L-16,26 M-24,29 L-26,32"/>
+          <path d="M16,-14 L18,-17 M28,-15 L30,-18"/>
+          <path d="M24,-7 L26,-10 M36,-4 L38,-7"/>
+          <path d="M24,12 L26,15 M35,10 L37,13"/>
+          <path d="M14,23 L16,26 M24,29 L26,32"/>
         </g>
       </g>
 
-      <!-- leg highlights -->
-      <g fill="none" stroke="#D7E0E8" stroke-opacity=".55" stroke-width=".8">
-        <path d="M-13 -12L-17 -17 M-19 -3L-24 -7 M-18 10L-23 16 M-10 18L-12 24"/>
-        <path d="M13 -12L17 -17 M19 -3L24 -7 M18 10L23 16 M10 18L12 24"/>
+      <!-- ---- PEDIPALPS (small front appendages) ---- -->
+      <g fill="none" stroke="url(#legGrad)" stroke-width="2" stroke-linecap="round">
+        <path d="M-3,-10 L-8,-16 L-11,-20"/>
+        <path d="M3,-10 L8,-16 L11,-20"/>
       </g>
 
-      <!-- abdomen -->
-      <ellipse cx="0" cy="5" rx="8" ry="11" fill="url(#spiderBody)"
-               stroke="#E0E7EF" stroke-width=".9"/>
-      <path d="M-5 3Q0 -2 5 3 M-5 8Q0 13 5 8" fill="none" stroke="#667484" stroke-width="1"/>
+      <!-- ---- ABDOMEN (rear body) ---- -->
+      <g filter="url(#bodyDepth)">
+        <ellipse cx="0" cy="12" rx="10" ry="13" fill="url(#abdomenGrad)"
+                 stroke="#2A323C" stroke-width=".6"/>
+      </g>
+      <!-- abdomen markings (chevron pattern) -->
+      <g fill="none" stroke="#1E252E" stroke-width=".7" opacity=".55">
+        <path d="M-4,6 Q0,9 4,6"/>
+        <path d="M-5,11 Q0,14 5,11"/>
+        <path d="M-5,16 Q0,19 5,16"/>
+      </g>
+      <!-- abdomen highlight -->
+      <ellipse cx="-2.5" cy="8" rx="2.5" ry="4" fill="#FFFFFF" opacity=".18"/>
 
-      <!-- cephalothorax -->
-      <circle cx="0" cy="-8" r="6" fill="url(#spiderBody)" stroke="#E0E7EF" stroke-width="1"/>
+      <!-- ---- CEPHALOTHORAX (front body) ---- -->
+      <g filter="url(#bodyDepth)">
+        <ellipse cx="0" cy="-6" rx="7" ry="6.5" fill="url(#cephaloGrad)"
+                 stroke="#2A323C" stroke-width=".6"/>
+      </g>
+      <!-- carapace highlight -->
+      <ellipse cx="-1.8" cy="-8" rx="2.2" ry="2" fill="#FFFFFF" opacity=".22"/>
 
-      <!-- eyes with pulse -->
-      <circle cx="-2" cy="-9" r="2.4" fill="url(#eyeGlow)" filter="url(#blueGlow)">
-        <animate attributeName="opacity" values=".7;1;.7" dur="1.8s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="2" cy="-9" r="2.4" fill="url(#eyeGlow)" filter="url(#blueGlow)">
-        <animate attributeName="opacity" values="1;.7;1" dur="1.8s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="-2" cy="-9" r="1.2" fill="#EAF7FF"/>
-      <circle cx="2" cy="-9" r="1.2" fill="#EAF7FF"/>
+      <!-- ---- CHELICERAE (fangs base) ---- -->
+      <path d="M-2.5,-12 Q0,-14 2.5,-12 L2,-10 Q0,-11 -2,-10 Z"
+            fill="#4A5462" stroke="#2A323C" stroke-width=".5"/>
 
-      <!-- fangs -->
-      <path d="M-3 -13L-7 -17 M3 -13L7 -17" stroke="#AEB7C1" stroke-width="1.3" stroke-linecap="round"/>
+      <!-- ---- FANGS ---- -->
+      <g stroke="#D6DEE7" stroke-width="1" stroke-linecap="round" fill="none">
+        <path d="M-2,-12 Q-3.5,-15 -2.5,-17"/>
+        <path d="M2,-12 Q3.5,-15 2.5,-17"/>
+      </g>
+
+      <!-- ---- 8 EYES (Salticidae layout) ---- -->
+      <!-- glow halos -->
+      <g opacity=".85">
+        <circle cx="-2.4" cy="-10" r="3" fill="url(#eyeGlowSoft)">
+          <animate attributeName="opacity" values=".6;1;.6" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="2.4" cy="-10" r="3" fill="url(#eyeGlowSoft)">
+          <animate attributeName="opacity" values="1;.6;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <!-- main eyes (AME) -->
+      <circle cx="-2.4" cy="-10" r="1.7" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".3"/>
+      <circle cx="2.4" cy="-10" r="1.7" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".3"/>
+      <!-- secondary eyes (ALE, PLE, PME) -->
+      <circle cx="-4.5" cy="-10.5" r=".9" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".2"/>
+      <circle cx="4.5" cy="-10.5" r=".9" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".2"/>
+      <circle cx="-3.5" cy="-12.5" r=".7" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".2"/>
+      <circle cx="3.5" cy="-12.5" r=".7" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".2"/>
+      <circle cx="-5" cy="-8" r=".6" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".2"/>
+      <circle cx="5" cy="-8" r=".6" fill="url(#eyeGrad)" stroke="#0A1218" stroke-width=".2"/>
+      <!-- eye highlights -->
+      <circle cx="-2.8" cy="-10.6" r=".5" fill="#FFFFFF" opacity=".9"/>
+      <circle cx="2" cy="-10.6" r=".5" fill="#FFFFFF" opacity=".9"/>
+
+      <!-- ---- BODY HAIRS (setae) ---- -->
+      <g stroke="#C9D3DE" stroke-width=".4" opacity=".4">
+        <path d="M-6,4 L-8,2 M-7,8 L-9,7 M-6,12 L-8,12 M-5,16 L-7,17"/>
+        <path d="M6,4 L8,2 M7,8 L9,7 M6,12 L8,12 M5,16 L7,17"/>
+        <path d="M-3,-4 L-4,-6 M3,-4 L4,-6"/>
+      </g>
     </g>
 
-    <!-- ===== REUSABLE: NODE ===== -->
+    <!-- ============ REUSABLE: NODE ============ -->
     <g id="node">
       <circle r="6" fill="#00BFFF" opacity=".12">
         <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite"/>
@@ -176,12 +295,10 @@
       <circle r="4" fill="none" stroke="#00BFFF" stroke-opacity=".65"/>
     </g>
 
-    <!-- ===== REUSABLE: CORNER MARK ===== -->
     <g id="cornerMarks" fill="none" stroke="#00BFFF" stroke-width="1.3">
       <path d="M0 24V0H38 M0 12H12 M24 0V8"/>
     </g>
 
-    <!-- ===== REUSABLE: PULSE RING ===== -->
     <g id="pulseRing">
       <circle r="10" fill="none" stroke="#00BFFF" stroke-width="1" opacity=".5">
         <animate attributeName="r" values="6;22;6" dur="4s" repeatCount="indefinite"/>
@@ -190,12 +307,11 @@
     </g>
   </defs>
 
-  <!-- ================= BACKGROUND ================= -->
+  <!-- ============ BACKGROUND ============ -->
   <rect width="1200" height="320" rx="8" fill="url(#background)"/>
   <rect width="1200" height="320" fill="url(#microGrid)"/>
   <rect width="1200" height="320" fill="url(#scanlines)"/>
 
-  <!-- animated center glow -->
   <ellipse cx="600" cy="150" rx="580" ry="260" fill="url(#centerGlow)">
     <animate attributeName="opacity" values=".7;1;.7" dur="6s" repeatCount="indefinite"/>
   </ellipse>
@@ -208,26 +324,19 @@
     </circle>
     <circle cx="420" cy="240" r="1" opacity=".4">
       <animate attributeName="cy" values="240;220;240" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".15;.6;.15" dur="9s" repeatCount="indefinite"/>
     </circle>
     <circle cx="780" cy="70" r="1.4" opacity=".45">
       <animate attributeName="cy" values="70;55;70" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".2;.65;.2" dur="8s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1020" cy="200" r="1.1" opacity=".5">
       <animate attributeName="cy" values="200;180;200" dur="6.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".15;.6;.15" dur="6.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="300" cy="280" r="1" opacity=".35">
-      <animate attributeName="cy" values="280;262;280" dur="10s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- technical dot fields -->
   <rect x="35" y="75" width="190" height="165" fill="url(#dots)" opacity=".7"/>
   <rect x="975" y="75" width="190" height="165" fill="url(#dots)" opacity=".7"/>
 
-  <!-- ================= FULL WEB STRUCTURE ================= -->
+  <!-- ============ WEB ============ -->
   <g>
     <use xlink:href="#webCorner" transform="translate(0 0)"/>
     <use xlink:href="#webCorner" transform="translate(1200 0) scale(-1 1)"/>
@@ -235,7 +344,6 @@
     <use xlink:href="#webCorner" transform="translate(1200 320) scale(-1 -1)"/>
   </g>
 
-  <!-- ================= CENTER RADIAL WEB ================= -->
   <g transform="translate(600 150)" fill="none"
      stroke="#9CA9B8" stroke-width=".8" stroke-opacity=".23">
     <path d="M0 0L-600 -150 M0 0L-600 -80 M0 0L-600 0 M0 0L-600 80 M0 0L-600 150"/>
@@ -248,7 +356,7 @@
              M-520 -20Q0 -95 520 -20 M-520 35Q0 10 520 35 M-450 95Q0 65 450 95"/>
   </g>
 
-  <!-- ================= MOVING DATA SIGNALS ================= -->
+  <!-- data signals -->
   <g fill="none" stroke="#00BFFF" stroke-width="1.2" opacity=".8">
     <path d="M70 65H260">
       <animate attributeName="stroke-dasharray" values="0 190;45 145;0 190" dur="5s" repeatCount="indefinite"/>
@@ -258,14 +366,14 @@
     </path>
   </g>
 
-  <!-- ================= FRAME ================= -->
+  <!-- frame -->
   <path d="M0 2H1200 M0 318H1200" stroke="url(#blueLine)" stroke-width="2"/>
   <use xlink:href="#cornerMarks" x="18" y="18"/>
   <use xlink:href="#cornerMarks" x="1182" y="18" transform="translate(1200 0) scale(-1 1)"/>
   <use xlink:href="#cornerMarks" x="18" y="278" transform="translate(0 320) scale(1 -1)"/>
   <use xlink:href="#cornerMarks" x="1182" y="278" transform="translate(1200 320) scale(-1 -1)"/>
 
-  <!-- ================= NETWORK NODES ================= -->
+  <!-- nodes -->
   <use xlink:href="#node" x="75" y="65"/>
   <use xlink:href="#node" x="260" y="65"/>
   <use xlink:href="#node" x="940" y="255"/>
@@ -273,20 +381,8 @@
   <use xlink:href="#pulseRing" x="75" y="65"/>
   <use xlink:href="#pulseRing" x="1125" y="255"/>
 
-  <!-- ================= TITLE (GLITCH) ================= -->
+  <!-- ============ TITLE ============ -->
   <g font-family="monospace" text-anchor="middle">
-    <!-- glitch layers -->
-    <text x="601" y="120" font-size="76" font-weight="bold" letter-spacing="4"
-          fill="#FF004D" opacity=".0" filter="url(#glitchR)">
-      <animate attributeName="opacity" values="0;0;.6;0;0;0;.4;0" dur="4.5s" repeatCount="indefinite"/>
-      SLΛSH/X
-    </text>
-    <text x="599" y="120" font-size="76" font-weight="bold" letter-spacing="4"
-          fill="#00FFFF" opacity=".0" filter="url(#glitchC)">
-      <animate attributeName="opacity" values="0;.5;0;0;.4;0;0;0" dur="4.5s" repeatCount="indefinite"/>
-      SLΛSH/X
-    </text>
-
     <text x="603" y="120" font-size="76" font-weight="bold"
           letter-spacing="4" fill="#007BFF" opacity=".4">SLΛSH/X</text>
     <text x="600" y="117" font-size="76" font-weight="bold"
@@ -294,23 +390,20 @@
       <animate attributeName="fill" values="#00BFFF;#7FE3FF;#00BFFF" dur="5s" repeatCount="indefinite"/>
       SLΛSH/X
     </text>
-
     <text x="600" y="155" font-size="13" letter-spacing="4" fill="#D0D8E2">
       CYBERSECURITY // CODE // ENGINEERING
       <animate attributeName="opacity" values=".85;1;.85" dur="3s" repeatCount="indefinite"/>
     </text>
-
     <path d="M390 170H810" stroke="#007BFF" stroke-width="1"/>
     <path d="M490 170H710" stroke="#00BFFF" stroke-width="2" filter="url(#blueGlow)">
       <animate attributeName="stroke-dasharray" values="0 220;220 0;220 0" dur="4s" repeatCount="indefinite"/>
     </path>
-
     <text x="600" y="192" font-size="10" letter-spacing="3.5" fill="#8998AA">
       SYSTEMS • SECURITY • DEVELOPMENT
     </text>
   </g>
 
-  <!-- ================= LEFT HUD (live) ================= -->
+  <!-- HUD -->
   <g font-family="monospace" font-size="9" fill="#8294A8">
     <text x="48" y="110">NET://ACTIVE</text>
     <text x="48" y="124" fill="#00BFFF">WEB_NODE_01
@@ -320,18 +413,8 @@
     <text x="48" y="225" fill="#00BFFF">MONITORING
       <animate attributeName="opacity" values=".4;1;.4" dur="1.6s" repeatCount="indefinite"/>
     </text>
-    <!-- live hex counter -->
-    <text x="48" y="245" fill="#5C7C9A" font-size="8">
-      PKT
-      <tspan fill="#00BFFF">
-        <animate attributeName="textContent" values="0x1A;0x2F;0x4B;0x3C;0x7E;0x1A"
-                 dur="5s" repeatCount="indefinite" calcMode="discrete"/>
-        0x1A
-      </tspan>
-    </text>
   </g>
 
-  <!-- ================= RIGHT HUD (live) ================= -->
   <g font-family="monospace" font-size="9" text-anchor="end" fill="#8294A8">
     <text x="1152" y="110">SEC://ONLINE</text>
     <text x="1152" y="124" fill="#00BFFF">ENCRYPTED
@@ -341,52 +424,43 @@
     <text x="1152" y="225" fill="#00BFFF">OPERATIONAL
       <animate attributeName="opacity" values="1;.5;1" dur="1.8s" repeatCount="indefinite"/>
     </text>
-    <!-- progress bar -->
-    <g transform="translate(1112 240)">
-      <rect x="0" y="0" width="40" height="3" fill="#0A1826" stroke="#00BFFF" stroke-opacity=".4"/>
-      <rect x="0" y="0" width="0" height="3" fill="#00BFFF">
-        <animate attributeName="width" values="0;40;0" dur="4s" repeatCount="indefinite"/>
-      </rect>
-    </g>
   </g>
 
-  <!-- ================= SPIDER PATH: UPPER (glowing silk) ================= -->
+  <!-- ============ ANIMATED REALISTIC SPIDER: UPPER WEB ============ -->
   <g>
+    <!-- silk thread -->
     <path d="M80 45C170 22 230 78 320 48 S470 25 560 48S730 80 820 48 S1000 23 1120 50"
           fill="none" stroke="#AEB7C1" stroke-width="1.2"
           stroke-opacity=".65" stroke-dasharray="3 5"/>
     <path d="M80 45C170 22 230 78 320 48 S470 25 560 48S730 80 820 48 S1000 23 1120 50"
           fill="none" stroke="#00BFFF" stroke-opacity=".15" stroke-width="5"/>
 
-    <!-- animated spider upper -->
     <g>
-      <animateMotion dur="20s" repeatCount="indefinite" rotate="auto"
+      <animateMotion dur="22s" repeatCount="indefinite" rotate="auto"
         path="M80 45C170 22 230 78 320 48 S470 25 560 48 S730 80 820 48 S1000 23 1120 50 S1000 23 820 48 S730 80 560 48 S470 25 320 48 S170 22 80 45"/>
-      <g transform="scale(.95)">
-        <use xlink:href="#spiderAdv" filter="url(#spiderGlow)"/>
+      <g transform="scale(1.15)">
+        <use xlink:href="#realSpider" filter="url(#spiderGlow)"/>
       </g>
     </g>
   </g>
 
-  <!-- ================= SPIDER PATH: LOWER (secondary) ================= -->
+  <!-- ============ SECONDARY SPIDER: LOWER WEB ============ -->
   <g>
     <path d="M1120 266C1030 238 960 282 860 255 S700 235 600 258S420 282 330 255 S160 238 80 266"
           fill="none" stroke="#AEB7C1" stroke-width="1.1"
           stroke-opacity=".52" stroke-dasharray="3 5"/>
-
     <g>
-      <animateMotion dur="26s" repeatCount="indefinite" rotate="auto"
+      <animateMotion dur="28s" repeatCount="indefinite" rotate="auto"
         path="M1120 266C1030 238 960 282 860 255 S700 235 600 258 S420 282 330 255 S160 238 80 266 S160 238 330 255 S420 282 600 258 S700 235 860 255 S1030 238 1120 266"/>
-      <g transform="scale(.6)">
-        <use xlink:href="#spiderAdv" opacity=".85"/>
+      <g transform="scale(.75)">
+        <use xlink:href="#realSpider" opacity=".85"/>
       </g>
     </g>
   </g>
 
-  <!-- ================= SUBTLE FRAME PULSE ================= -->
+  <!-- frame pulse -->
   <rect x="1" y="1" width="1198" height="318" rx="7"
         fill="none" stroke="#00BFFF" stroke-opacity=".15">
     <animate attributeName="stroke-opacity" values=".08;.3;.08" dur="7s" repeatCount="indefinite"/>
   </rect>
-
 </svg>
