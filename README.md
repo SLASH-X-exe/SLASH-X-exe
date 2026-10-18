@@ -37,6 +37,10 @@ class SlashX:
 
     def motto(self):
         return "Explore. Engineer. Evolve."
+
+
+me = SlashX()
+print(me.motto())
 ```
 
 - 🔐 Exploring cybersecurity and ethical hacking.
@@ -101,7 +105,7 @@ class SlashX:
 
 <img src="https://ghchart.rshah.org/00BFFF/SLASH-X-exe" alt="SLASH-X Contribution Graph" width="100%" />
 
-[View Full Contribution History](https://github.com/SLASH-X-exe)
+[![Contribution History](https://img.shields.io/badge/VIEW-CONTRIBUTION_HISTORY-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF)](https://github.com/SLASH-X-exe?tab=overview)
 
 </div>
 
@@ -113,11 +117,25 @@ class SlashX:
 
 </div>
 
-## `06` // TOP CONTRIBUTED REPOSITORIES
+## `06` // REPOSITORIES & ACCOUNT ACTIVITY
 
 <div align="center">
 
-<img src="https://github-contributor-stats.vercel.app/api?username=SLASH-X-exe&limit=5&theme=dark&combine_all_yearly_contributions=true" width="80%" />
+<a href="https://github.com/SLASH-X-exe?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE-ALL_REPOSITORIES-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" alt="Explore Repositories" />
+</a>
+
+<a href="https://github.com/SLASH-X-exe?tab=stars">
+  <img src="https://img.shields.io/badge/EXPLORE-STARRED_PROJECTS-0D1117?style=for-the-badge&logo=github&logoColor=FFD700" alt="Starred Projects" />
+</a>
+
+<a href="https://github.com/SLASH-X-exe?tab=followers">
+  <img src="https://img.shields.io/badge/VIEW-FOLLOWERS-0D1117?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub Followers" />
+</a>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=SLASH-X-exe&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00BFFF&icon_color=007BFF&text_color=C9D1D9" alt="GitHub Account Statistics" width="80%" />
 
 </div>
 
