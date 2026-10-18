@@ -73,25 +73,7 @@ Make it better.
 
 <img src="./sec-03.svg" width="100%" alt="03 — TECH STACK" />
 
-<div align="center">
-
-**LANGUAGES**
-
-<img src="https://skillicons.dev/icons?i=python,c,cpp,cs,java,js,ts,php,dart,bash&theme=dark&perline=10" />
-
-**WEB, FRAMEWORKS & DATABASES**
-
-<img src="https://skillicons.dev/icons?i=html,css,flask,django,dotnet,sqlite,mysql,apache&theme=dark&perline=8" />
-
-**TOOLS & ENVIRONMENT**
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,windows,vscode,visualstudio&theme=dark&perline=7" />
-
-**CREATIVE TOOLS**
-
-<img src="https://skillicons.dev/icons?i=photoshop,premiere,blender,canva&theme=dark&perline=4" />
-
-</div>
+<img src="./tech-stack.svg" width="100%" alt="Tech stack: Python, C, C++, C#, Java, JavaScript, TypeScript, PHP, Dart, Bash, HTML, CSS, Flask, Django, .NET, SQLite, MySQL, Apache, Git, GitHub, Docker, Linux, Windows, VS Code, Visual Studio, Photoshop, Premiere, Blender, Canva" />
 
 <img src="./divider.svg" width="100%" alt="" />
 
